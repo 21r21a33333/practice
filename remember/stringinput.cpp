@@ -1,7 +1,7 @@
 // C++ program to demonstrate
 // anomaly of delimitation of
 // getline() function
-#include <iostream>
+#include <bits/stdc++.h>
 #include <string>
 using namespace std;
 
@@ -32,6 +32,9 @@ int main()
 	// This actually prints the name
 	cout << "Hello, " << name
 		<< " welcome to GfG !\n";
-
+    string s="asdfasdfasdf";
+    cout<<s.substr(1,5);
+    set<int> st={1,23,4};
+    cout<< *(st.rbegin());
 	return 0;
 }
